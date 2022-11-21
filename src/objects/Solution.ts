@@ -17,3 +17,18 @@ const product = {
   // alternative value "draft"
   status: ProductStatus.PUBLISHED,
 } as Product;
+
+function updateUser({
+  firstName,
+  age,
+  isPremium,
+}: {
+  firstName: string;
+  age: number;
+  isPremium: boolean;
+}) {}
+
+type UserProfileProps = {
+  firstName: string;
+  age: number;
+};
