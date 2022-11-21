@@ -4,7 +4,7 @@ type ProductProps = {
   images: string[];
 };
 
-function Product({ name, price, images }: ProductProps) {
+export function Product({ name, price, images }: ProductProps) {
   return (
     <div>
       <div>
@@ -14,15 +14,5 @@ function Product({ name, price, images }: ProductProps) {
         <img src={src} />
       ))}
     </div>
-  );
-}
-
-export default function App() {
-  return (
-    <Product
-      name="Shampoo"
-      price={2.99}
-      images={["image-1.png", "image-2.png"]}
-    />
   );
 }
