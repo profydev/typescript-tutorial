@@ -1,4 +1,10 @@
-function Product({ name, price, images }) {
+type ProductProps = {
+  name: string;
+  price: number;
+  images: string[];
+};
+
+function Product({ name, price, images }: ProductProps) {
   return (
     <div>
       <div>
