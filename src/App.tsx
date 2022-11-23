@@ -1,11 +1,5 @@
-import { Product } from "./components/Challenge";
+import { CreateProductForm } from "./events/Solution-2";
 
 export default function App() {
-  return (
-    <Product
-      name="Shampoo"
-      price={2.99}
-      images={["image-1.png", "image-2.png"]}
-    />
-  );
+  return <CreateProductForm />;
 }

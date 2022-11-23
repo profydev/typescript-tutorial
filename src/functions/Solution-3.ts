@@ -15,6 +15,8 @@ const product = updateProduct({
   images: ["image-1.png", "image-2.png"],
 });
 
+/**** ALTERNATIVE SOLUTION ****/
+
 // we don't need to define the return type here
 // TS can infer it from the return value
 function updateProductAlternative(product: Product) {

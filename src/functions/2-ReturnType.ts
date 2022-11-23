@@ -1,3 +1,5 @@
+// Challenge: type the function parameters and the return type
+
 function updateProduct(name, price, images) {
   // update logic here ...
   return { name, price, images };

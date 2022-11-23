@@ -1,10 +1,10 @@
-// <Product
-//   name="Shampoo"
-//   price={2.99}
-//   images={["image-1.png", "image-2.png"]}
-// />
+type ProductProps = {
+  name: string;
+  price: number;
+  images?: string[];
+};
 
-export function Product({ name, price, images }) {
+export function Product({ name, price, images = [] }: ProductProps) {
   return (
     <div>
       <div>

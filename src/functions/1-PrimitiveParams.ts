@@ -1,3 +1,5 @@
+// Challenge: type the function parameters
+
 function updateProduct(name, price, images) {
   // update logic here ...
   console.log({ name, price, images });
