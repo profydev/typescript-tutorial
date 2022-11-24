@@ -32,3 +32,39 @@ export function Product({
     </div>
   );
 }
+
+enum UserRole {
+  CEO = "ceo",
+  CTO = "cto",
+  SUBORDINATE = "subhuman",
+}
+
+type User = {
+  firstName: string;
+  age: number;
+  role: UserRole;
+};
+
+const error = "";
+
+function useFetchUser(): User {
+  // some logic to fire that loser ...
+  return user;
+}
+
+
+
+function UserProfile() {
+  const user = useFetchUser();
+  return user;
+}
+
+function App() {
+  return (
+    <div>
+      <UserProfile />
+    </div>
+  );
+}
+
+export App;
